@@ -1,0 +1,66 @@
+<html class="gr__nkatanasov_ca" lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Norem Nipsum</title>
+    <link rel="stylesheet" href="lorem.css">
+</head>
+
+
+<body data-gr-c-s-loaded="true">
+    <header>
+        <h1>Norem Nipsum</h1>
+        <p>Randome Text Generator</p>
+    </header>
+
+    <div id="main">
+        <div id="area-1">
+            <div id="language-bar">
+                <img src="./img/language_icon.svg" alt="language icon" style="width: 20px">
+                <p>
+                    <span id="language-select">English</span>
+                </p>
+            </div>
+            <p class="copy-feedback" style="display: none">The result was copied to the clipboard !</p>
+        </div>
+
+        <div id="controls">
+            <div id="left-controls">
+                <span id="sentence-length-text">Sentence length:</span>
+                <input name="sentence-length" value="short" type="radio">
+                <span id="short">Short</span> &nbsp;&nbsp;
+                <input name="sentence-length" value="mid" checked="checked" type="radio">
+                <span id="mid">Mid</span>&nbsp;&nbsp;
+                <input name="sentence-length" value="long" type="radio">
+                <span id="long">Long</span>
+            </div>
+
+            <div id="right-controls">
+                <p style="margin-bottom: 12px" id="sentences">Sentences:&nbsp;&nbsp;</p>
+                <div id="submit-group">
+                    <input min="1" max="50" id="sentence-length-input" type="number" value="10">
+                    <button onclick="mkReadyString()" id="generate">generate</button>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div id="textarea">
+
+            <p id="text_">Response ...</p>
+
+
+        </div>
+
+
+
+    </div>
+
+    <footer></footer>
+    <script src="lorem.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,191 @@
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    /* background: #f1f1f1;  */
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(228, 240, 255); 
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(204, 228, 255); 
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F1F9FF;
+    font-size: 14px;
+    margin: 0;
+}
+
+footer{
+    background-color: #2699FB;
+    width: 100%;
+    height: 145px;
+}
+
+header{
+    color: #2699FB;
+    text-align: center;
+    line-height: 20px;
+    margin: 50px;
+}
+
+header h1{
+    font-size: 50px;
+    font-weight: 900;
+}
+
+header p{
+    font-size: 18px;
+}
+
+#main{
+    background-color: #fff;
+    width: 640px;
+    height: 533px;
+    margin: 100px auto;
+    border: solid 1px rgb(189, 227, 255);
+    border-radius: 7px;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.13);
+    padding: 20px;
+}
+
+#area-1{
+    display: flex;
+    justify-content: space-between;
+}
+
+#language-bar{
+    display: flex;
+    align-items: flex-start;
+    color: #2699FB;
+    margin-bottom: 30px;
+    
+}
+
+#language-bar p{
+    margin-left: 7px;
+    margin-top: 3px;
+    font-size: 12px;
+}
+
+.copy-feedback{
+margin: 0px;
+color: #2699FB;
+font-size: 13px;
+}
+
+
+#inner{
+    margin: 15px;
+    
+}
+
+#controls{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #2699FB;
+}
+
+#left-controls{
+    align-items: center; 
+}
+
+#right-controls{
+    display: flex;
+    align-items: center;
+}
+
+#submit-group{
+    background-color: #2699FB;
+    align-items: center;
+    border-radius: 100px;
+}
+
+#submit-group input{
+    color: #2699FB;
+    width: 60px;
+    border-radius: 100px;
+    border: 2px solid #2699FB;
+    outline: none;
+    padding: 8px;
+}
+
+#submit-group button{
+    background-color: #2699FB;
+    border-radius: 100px;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    font-weight: 700;
+    padding: 8px 20px;
+}
+
+#submit-group button:hover{
+    color: rgb(202, 230, 255);
+    cursor: pointer;
+}
+
+#submit-group button:active{
+    color: rgb(97, 181, 255);
+}
+
+#textarea{
+    color: #2699FB;
+    margin-top: 30px;
+    /* padding: 10px; */
+    border: 1px solid rgb(189, 227, 255);
+    border-radius: 4px;
+    width: 100%;
+    height: 400px;
+    text-align: justify;
+    overflow: auto;
+}
+
+#textarea p{
+    margin: 0px;
+    padding: 10px;
+}
+
+
+
+
+/* border: 1px solid #000; */
+/* box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.13); */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
